@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "json" : "json-server --watch db.json",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -11,6 +12,9 @@
   },
   "private": true,
   "dependencies": {
+    "@angular-redux/form": "^9.0.1",
+    "@angular-redux/router": "^9.0.0",
+    "@angular-redux/store": "^9.0.0",
     "@angular/animations": "~7.0.0",
     "@angular/common": "~7.0.0",
     "@angular/compiler": "~7.0.0",
@@ -21,7 +25,12 @@
     "@angular/platform-browser-dynamic": "~7.0.0",
     "@angular/router": "~7.0.0",
     "core-js": "^2.5.4",
+    "flux-standard-action": "^2.0.3",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^1.0.0",
     "rxjs": "~6.3.3",
+    "seamless-immutable": "^7.1.4",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {

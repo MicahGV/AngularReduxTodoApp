@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "text": "Learn Redux you bastard",
+      "status": false,
+      "id": 1
+    },
+    {
+      "text": "Redux is pretty dope, man",
+      "status": false,
+      "id": 2
+    }
+  ]
+}
